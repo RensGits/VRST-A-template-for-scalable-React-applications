@@ -1,0 +1,15 @@
+.root_layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 2em;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+    width: 100%;
+}

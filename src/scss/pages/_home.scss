@@ -1,0 +1,23 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+
+    img{
+        width: 25em;
+        height: auto;
+    }   
+
+    &-counter{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+    }
+
+    &-pokemon{
+        img{
+            width: 8em;
+        }
+    }
+}

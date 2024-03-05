@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root{
+    height: 100%;
+}
+
+// Typography
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.5; 
+    
+}
+
+// Lists
+ul,
+ol {
+    padding-left: 1.5em;
+}
+
+// Links
+a {
+    color: #007bff;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Images
+img {
+    // max-width: 100%;
+    height: auto;
+}
+
+// Buttons
+button{
+    padding: 1em;
+    color: white;
+    background-color: black;
+}
+
+button,
+input[type="submit"] {
+    cursor: pointer;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+    border: none;
+    padding: 0.5em;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+// Forms
+input,
+textarea,
+select {
+    font-family: inherit; 
+    font-size: 1rem; 
+}
+
