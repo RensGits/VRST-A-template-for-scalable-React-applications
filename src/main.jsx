@@ -5,7 +5,7 @@ import { store } from './redux/store'
 import { Provider } from 'react-redux'
 import RootLayout from './components/layout/RootLayout';
 import Home from './pages/Home/Home'
-import Contact from './pages/Home/Contact/Contact';
+import Contact from './pages/Contact/Contact';
 
 const router = createBrowserRouter([
   {
